@@ -72,5 +72,4 @@ class Calendar(MessageHandler):
         response = strftime("%a, %d %b %Y %H:%M:%S", localtime())
         print(f'HORA ACTUAL: {response}')
         await self.message.channel.send(response)
-        return
     
